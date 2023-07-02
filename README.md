@@ -5,39 +5,39 @@ It is a contacts-user management API made in Node-Express JS used with MongoDB a
 ## Documentation
 
 ### Dependencies :
-1] Nodemon - `npm i nodemon`
-2] Express - `npm i express`
-3] dotenv - `npm i dotenv`
-4] Mongoose - `npm i mongoose`
-5] MongoDB - `npm i mongodb`
-6] BCrypt - `npm i bcrypt`
-7] Express Async Handler - `npm i express-async-handler`
-8] JWT (JSON Web Token) - `npm i jsonwebtoken`
-9] Install VScode Thunder Client extension for client sided request-response interaction.
+1. Nodemon - `npm i nodemon`
+2. Express - `npm i express`
+3. dotenv - `npm i dotenv`
+4. Mongoose - `npm i mongoose`
+5. MongoDB - `npm i mongodb`
+6. BCrypt - `npm i bcrypt`
+7. Express Async Handler - `npm i express-async-handler`
+8. JWT (JSON Web Token) - `npm i jsonwebtoken`
+9. Install VScode Thunder Client extension for client sided request-response interaction.
 
 ### Setting up MongoDB Atlas cloud :
 
-1] Create MongoDB Atlas account
-2] Create a free cluster (Create database/deploy database)
-3] Shared free plan
-4] Choose service provider (AWS recommended)
-5] Choose region (Starred ones recommended)
-6] Choose your cluster name (can't be changed later)
-7] In authenticate connection - choose `Username and password`
-8] Choose `username` (suggested `admin`)
-9] Automatically chosen IP
-10] Finish and close, create cluster
-11] Click `browse collections` -> `Add my own data`
-12] Add your database name, and collection names - `contacts` and `users` will be made for further use.
-13] Install VSCode `mongoDB` extension
-14] Go to `overview` -> `connect` -> `MongoDB Compass option` -> `Copy Connection String` in Atlas website.
-15] Go to VSCode, left side panel MongoDB, Click `Connect with Connection String` to establish connection of your account to VSCode.
-16] In above command palette, paste that [14] copied string and replace `test` with your database name in string and your password in place of `<password>`.
-17] Hit `enter` to establish successful connection.
-18] Now to connect your app and code with your database, follow :
+1. Create MongoDB Atlas account
+2. Create a free cluster (Create database/deploy database)
+3. Shared free plan
+4. Choose service provider (AWS recommended)
+5. Choose region (Starred ones recommended)
+6. Choose your cluster name (can't be changed later)
+7. In authenticate connection - choose `Username and password`
+8. Choose `username` (suggested `admin`)
+9. Automatically chosen IP
+10. Finish and close, create cluster
+11. Click `browse collections` -> `Add my own data`
+12. Add your database name, and collection names - `contacts` and `users` will be made for further use.
+13. Install VSCode `mongoDB` extension
+14. Go to `overview` -> `connect` -> `MongoDB Compass option` -> `Copy Connection String` in Atlas website.
+15. Go to VSCode, left side panel MongoDB, Click `Connect with Connection String` to establish connection of your account to VSCode.
+16. In above command palette, paste that [14] copied string and replace `test` with your database name in string and your password in place of `<password>`.
+17. Hit `enter` to establish successful connection.
+18. Now to connect your app and code with your database, follow :
 MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `Copy Connection String`
-19] Go to `.env` file and paste that newly copied string to `CONNECTION_STRING`variable.
-20] Replace your database name in string before `?retryWrites=true` part i.e.
+19. Go to `.env` file and paste that newly copied string to `CONNECTION_STRING`variable.
+20. Replace your database name in string before `?retryWrites=true` part i.e.
 `... mongodb.net/<your_database_name>?retryWrites=true ...`.
 
 ## Tech Stacks
@@ -65,6 +65,7 @@ MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `C
 
 1] Registering new user and success  proof [POST] and [GET] :
 `http://localhost:5000/api/users/register`
+
 
 
 2] Wrong credentials login check handle test [GET] :
