@@ -50,7 +50,7 @@ MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `C
 
 ## Running the App
 
-`npm start`
+`npm start` - Run in `mycontacts-backend` only `images` are for reference purpose
 
 ### Running Thunder Client queries :
 
@@ -62,11 +62,8 @@ MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `C
 0] Get all contacts by user1 [GET] :
 `http://localhost:5000/api/contacts`
 
-
 1] Registering new user and success  proof [POST] and [GET] :
 `http://localhost:5000/api/users/register`
-
-
 
 2] Wrong credentials login check handle test [GET] :
 `http://localhost:5000/api/users/login`
@@ -74,14 +71,11 @@ MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `C
  - In Body JSON Content
 `{ "email": "youremail", "password": "wrongpassword" }`
 
-
 3] Generate new token for user login [POST] :
 `http://localhost:5000/api/users/login`
 
-
 4] Adding access token in Auth section to login [POST] :
 `http://localhost:5000/api/contacts`
-
 
 5] Create contact after login [POST] :
 `http://localhost:5000/api/contacts`
@@ -89,20 +83,13 @@ MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `C
  - In Body JSON Content
 `{ "name": "yourname", "email": "youremail", "phone": "phoneno" }`
 
-
-
-
-
-
 6] Update contact success [PUT] :
 `http://localhost:5000/api/contacts/"_id"`
-
 
 7] Delete contact added by user2 [DELETE] :
 `http://localhost:5000/api/contacts/"_id"`
 
-
 8] Deleted contact get info handle case [GET] :
 `http://localhost:5000/api/contacts/"_id"`
 
-
+◾- All pictorial references are in `images` folder.
