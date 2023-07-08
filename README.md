@@ -2,9 +2,17 @@
 
 It is a contacts-user management API made in Node-Express JS used with MongoDB and implemented JSON Web Token [JWT] authentication security. The backend app provides `Register` and `Login` user functionality. Each Registered user can view their own added contacts information or can perform 4 CRUD(`Create`, `Read`, `Update`, `Delete`) operations. JWT Authentication is implemented so that no other user can perform operations made by other user. This JWT generated token have expiry  time and if user logs in within that time than it lets user successfully login or else fails. In this project, expiration time is set for 15 minutes, don't worry perform your tests at ease:) 
 
+## Tech Stacks
+<p>
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"/>
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="ExpressJS"/>
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+</p>
+
 ## Documentation
 
-### Dependencies :
+ 
 1. Nodemon - `npm i nodemon`
 2. Express - `npm i express`
 3. dotenv - `npm i dotenv`
@@ -39,14 +47,6 @@ MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `C
 19. Go to `.env` file and paste that newly copied string to `CONNECTION_STRING`variable.
 20. Replace your database name in string before `?retryWrites=true` part i.e.
 `... mongodb.net/<your_database_name>?retryWrites=true ...`.
-
-## Tech Stacks
-<p>
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="ExpressJS"/>
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-</p>
 
 ## Running the App
 
