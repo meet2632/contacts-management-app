@@ -92,4 +92,4 @@ MongoDB Cloud Atlas -> `Overview` -> `Connect` -> `MongoDB Drivers option` -> `C
 8] Deleted contact get info handle case [GET] :
 `http://localhost:5000/api/contacts/"_id"`
 
-◾- All pictorial references are in `images` folder.
+◾- All pictorial references are in `images` folder, [Click Here](images/)
